@@ -1,0 +1,10 @@
+{
+  "name": "react-graphql-node-mongo-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run --prefix ./frontend start"
+  },
+  "author": "",
+  "license": "ISC"
+}
