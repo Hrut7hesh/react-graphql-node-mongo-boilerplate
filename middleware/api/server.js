@@ -9,7 +9,7 @@ const isDev = process.env.MIDDLEWARE_ENV === 'dev';
 const server = new ApolloServer({
   typeDefs: [testTypeDefs],
   resolvers: [testResolvers],
-  introspection: isDev,
+  introspection: true,
   playground: isDev
 });
 
