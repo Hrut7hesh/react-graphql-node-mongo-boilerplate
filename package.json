@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ajv": "^7.2.4",
     "concurrently": "^9.0.1"
   }
 }
