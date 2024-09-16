@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npm run --prefix ./frontend start"
+    "test": "npm run --prefix ./frontend start",
+    "start:mw": "npm run --prefix ./middleware start",
+    "start": "concurrently \"npm run start:fe\" \"npm run start:mw\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
 }
